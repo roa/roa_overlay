@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<!-- 
+$Header: $
+-->
+<pkgmetadata>
+<herd>no-herd</herd>
+<maintainer>
+  <email>doctorwhoguy@gmail.com</email>
+</maintainer>
+<use>
+  <flag name='configurator'>Build configurator.</flag>
+  <flag name='curl_dynamic'>Force the use of dynamic libs for CURL.</flag>
+  <flag name='debug'>Enable a debug build. If disabled, a release build will be compiled.</flag>
+  <flag name='editor'>Build map editor.</flag>
+  <flag name='freetype'>Use Freetype-GL for onscreen fonts.</flag>
+  <flag name='ftgl'>Use FTGL for on-screen fonts.</flag>
+  <flag name='libircclient'>Use external <pkg>net-libs/libircclient</pkg>. If disabled, MegaGlest
+  will be compiled using the embedded libircclient included in the source.</flag>
+  <flag name='manpages'>Build the manpages for MegaGlest and its optional programs.</flag>
+  <flag name='miniupnpc'>Use external <pkg>net-libs/miniupnpc</pkg>. If disabled, Megaglest
+  will be compiled using the embedded miniupnpc included in the source.</flag>
+  <flag name='sse'>Fast floating point optimization for PentiumIII+ class chips.</flag>
+  <flag name='sse2'>Faster floating point optimization for SSE2 capable chips.</flag>
+  <flag name='sse3'>Faster floating point optimization for SSE3 capable chips.</flag>
+  <flag name='static-libs'>Build static libraries. Forces use of embedded libircclient and miniupnpc.</flag>
+  <flag name='streflop'>Use the library streflop.</flag>
+  <flag name='tools'>Build model import/export tools.</flag>
+  <flag name='unicode'>Use unicode build with wxWidgets.</flag>
+  <flag name='universal'>Use universal build with wxWidgets.</flag>
+  <flag name='viewer'>Build model viewer.</flag>
+</use>
+-->
+</pkgmetadata>
